@@ -17,8 +17,8 @@ GPU-accelerated models on small cloud clusters as side projects.
 
 ##  🌱 I’m currently learning ...
 
-- How to boost memory capacity using intelligent compression.
-- How to provide visibility into memory usage across HPC systems to improve debug lifecycle output.
+- How to boost memory capacity using different types of compression.
+- How to provide visibility into memory usage across HPC systems.
 
 ##  🔭 I’m looking to collaborate on ...
 
