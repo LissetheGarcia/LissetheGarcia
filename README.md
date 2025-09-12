@@ -15,20 +15,24 @@ density classification, in collaboration with the Universidad Autónoma de Guada
 Nacional de Occidente (CMNO), and the Jalisco State Government. Also explored NLP, fine-tuning LLMs, and deployed
 GPU-accelerated models on small cloud clusters as side projects.
 
-## 🔭 I’m currently working on ...
+##  🌱 I’m currently learning ...
 
-##  🌱 I’m currently learning as much as I can about HPC and Multithreading
+- How to boost memory capacity using intelligent compression.
+- How to provide visibility into memory usage across HPC systems to improve debug lifecycle output.
 
-##  👯 I’m looking to collaborate on ...
+##  🔭 I’m looking to collaborate on ...
 
-##  🤔 I’m looking for help with ...
-
-## 💬 Ask me about ...
+- Processor, accelerator, memory, storage, interconnect, and system architectures, including architectures based on future and emerging hardware for HPC systems.
+- Programming languages, paradigms, and execution models, including domain-specific languages and scientific problem-solving software environments for HPC and parallel computing
+- Compilers, runtime systems and system software, including optimization and support for hardware resources and energy management.
+- High-performance algorithms and applications including machine learning and large-scale data analytics, as well as the implementation and deployment of algorithms and applications on large-   scale systems.
+- Tools for measurement, modeling, compression, analysis, and visualization of performance, energy, or other quantitative properties of high-performance computing systems.
 
 ##  ⚡ Fun facts about me
 
-Fun Fact 1: I love to read about anything, I consider myself a really curious person, who thinks some of the most wonderfult capacities of being human is the ability to learn and get impressed with all the knowledge that exists in this world. "We are all ignorant, but we are not all ignorant of the same things."
+Fun Fact 1: 
+I love to read about anything, I consider myself a really curious person, who thinks some of the most wonderfult capacities of being human is the ability to learn and get impressed with all the knowledge that exists in this world. "We are all ignorant, but we are not all ignorant of the same things."
 
 Fun Fact 2:
-I really love cats, I love them in all their colors, and races, this is "Rayitas":
+I really love cats, I love them in all their colors, and races.
 
