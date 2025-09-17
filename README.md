@@ -1,4 +1,69 @@
 ## Hi there, I hope you to find my profile useful and interesting👋
+```c
+#include <stdio.h>
+#include <stdlib.h> // for strtol()
+#include <pthread.h>
+#include <stdatomic.h>
+
+static _Atomic int thread_count;
+
+void *hello(void *rank);
+
+
+int main(int argc, char *argv[])
+{
+    long thread; // Use of long in case of 64 bits system
+    pthread_t *thread_handles;
+
+    if(argc < 2)
+    {
+        fprintf(stderr, "Usage: %s <number of threads> \n", argv[0]);
+
+        return 1; //Indicate an error
+    }
+
+    // Get the number of threads
+    thread_count = strtol(argv[1], NULL, 10);
+
+    if(thread_count <= 0 || thread_count > 12)
+    {
+        fprintf(stderr, "Error: Number of threads(%d) is outside system limits. \nPlease provide a value in a range between 2 and 12.", thread_count);
+
+        return 1; // Return error
+    }
+
+    thread_handles = malloc(thread_count*sizeof(pthread_t));
+
+    for(thread = 0; thread < thread_count; thread++)
+    {
+        pthread_create(&thread_handles[thread], NULL, hello, (void *) thread);
+    }
+
+    for(thread = 0; thread < thread_count; thread++)
+    {
+        pthread_join(thread_handles[thread], NULL);
+    }
+
+    free(thread_handles);
+
+    puts("Exiting execution...");
+
+
+    return 0;
+
+}
+
+
+void *hello(void *rank)
+{
+    long my_rank = (long) rank;
+
+    printf("Welcome to my github account from rank %ld of %d.\n", my_rank, thread_count);
+
+
+    return NULL;
+}
+```
 
 
 I am a Computer Scientist with 3+ years of experience in high-performance computing (HPC), AI, and system validation.
