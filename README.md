@@ -1,7 +1,7 @@
 ## Hi there, I hope you to find my profile useful and interesting👋
 ```c
 #include <stdio.h>
-#include <stdlib.h> // for strtol()
+#include <stdlib.h>
 #include <pthread.h>
 #include <stdatomic.h>
 
@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
     {
         fprintf(stderr, "Usage: %s <number of threads> \n", argv[0]);
 
-        return 1; //Indicate an error
+        return 1; 
     }
 
     // Get the number of threads
@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
     {
         fprintf(stderr, "Error: Number of threads(%d) is outside system limits. \nPlease provide a value in a range between 2 and 12.", thread_count);
 
-        return 1; // Return error
+        return 1; 
     }
 
     thread_handles = malloc(thread_count*sizeof(pthread_t));
